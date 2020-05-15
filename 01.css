@@ -1,0 +1,36 @@
+/* 全体 */
+
+ul {
+    list-style: none;
+}
+
+/* 中身 */
+
+header {
+    background-color: #555;
+    height: 60px;
+    color: white;
+    opacity: 0.8;
+}
+
+.logo {
+    float: left;
+    padding: 0 40px;
+    font-weight: bold;
+}
+
+.navi li {
+    float: left;
+}
+
+.navi a {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 60px;
+    padding: auto 0;
+}
+
+.navi a:hover{
+    background-color: #111;
+}
